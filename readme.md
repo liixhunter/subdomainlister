@@ -36,18 +36,20 @@ It orchestrates multiple tools in parallel, normalizes results, and provides a c
 
 NebulaRecon requires three tools. Install them before running:
 
+  ```
+
 ### 1. Assetfinder
 - GitHub: [tomnomnom/assetfinder](https://github.com/tomnomnom/assetfinder)
 - Install via Go:
   ```bash
-  go install github.com/tomnomnom/assetfinder@latest
+    go install github.com/tomnomnom/assetfinder@latest
   ```
 
 ### 2. Subfinder
 - GitHub: [projectdiscovery/subfinder](https://github.com/projectdiscovery/subfinder)
 - Install via Go:
-  ```bash
-  go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
+   ```bash
+    go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
   ```
 - Or download binaries from [Releases](https://github.com/projectdiscovery/subfinder/releases).
 
@@ -137,3 +139,4 @@ Feel free to use, modify, and share.
 This README is **self-contained**: banner, features, install instructions, usage, examples, and license are all in one place.  
 
 Would you like me to also add a **Quickstart one-liner** (install Go + Python deps + clone repo) so users can set up everything with a single copy-paste command?
+
