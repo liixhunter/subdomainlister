@@ -133,9 +133,4 @@ MIT License © 2025 — Your Name
 Feel free to use, modify, and share.
 ```
 
----
-
-
-
-
 
